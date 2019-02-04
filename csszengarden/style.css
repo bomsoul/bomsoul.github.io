@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font: 85% georgia, sans-serif;
+	color: #555753; 
+	background: #fff linear-gradient(110deg, #FFDAB9 60%, #FAEBD7 60%) no-repeat bottom right; 
+	background-attachment: fixed;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.page-wrapper{
+	margin:0 auto;
+}
+header {
+	padding:20px;
+	text-align: center;
+	animation-name: stretch;
+  	animation-duration: 1.5s; 
+  	animation-timing-function: ease-out; 
+  	animation-delay: 0;
+  	animation-direction: alternate;
+  	animation-iteration-count: infinite;
+  	animation-fill-mode: none;
+  	animation-play-state: running;
+}
+header h1{
+	font-family: 'Raleway', sans-serif;
+	font-size: 300%;
+	color:yellowgreen;
+	margin: 0%;
+}
+
+header h2{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 60px;
+}
+
+.summary{
+	font-family: 'PT Sans Narrow', sans-serif;
+	text-align: center;
+	font-size: 180%;
+}
+
+.summary a{
+	border: none;
+	border-radius:12px;
+	text-align: center;
+  	text-decoration: none;
+	font-size: 130%;
+	background: white;
+	display: block;
+	width: 30%;
+	margin-left: 34%;
+	padding: 1%;
+}
+
+.summary a:hover{
+	background: black;
+	color: #fff;
+}
+.preamble{
+	background: #D3D3D3;
+	font-family: 'Roboto Slab', serif;
+}
+
+.explanation,.participation,footer,.benefits,.requirements{
+	float: left;
+	background: #FFCCCC;
+	font-family: 'Roboto Slab', serif;
+	width: 80%;
+	font-size: 120%;
+}
+.explanation,.participation{
+	float: left;
+}
+.participation a:hover{
+	background: white;
+	color : black;
+	text-decoration: none;
+}
+
+.requirements a{
+	font-size: 120%;
+}
+
+.requirements a:hover{
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+}
+.sidebar{
+	background: white;
+	opacity: 0.5%;
+	font-family: 'Roboto Mono', monospace;
+}
+.sidebar li{
+	float: none;
+    width: auto;
+}
+.sidebar h3{
+	background: #555753;
+	font-size: 20px;
+	color: #fdcd3b;
+	padding: 9px;
+	margin-left: 3px;
+}
+
+.sidebar ul li{
+	list-style: square;
+}
+
+.sidebar ul{
+	list-style: none;
+	overflow: hidden;
+	text-align: left;
+}
+li{
+	padding-bottom: 5%;
+}
+.sidebar .design-name{
+	color: #BEBEBE;
+	display: block;
+}
+.sidebar .designer-name , a{
+	color: #708090;
+}
+
+.sidebar a:hover{
+	color: #555753;
+	text-decoration: none;
+	font-size: 102%;
+	background: #E6E6FA;
+}
+
+@keyframes stretch {
+	0% {
+	  transform: scale(.3);
+	  background-color: #FFCCCC;
+	  border-radius: 100%;
+	}
+	50% {
+	  background-color: #FFCCFF;
+	}
+	100% {
+	  transform: scale(1);
+	  background-color: #FFFFCC;
+	}
+  }
+
+@media screen and (max-width: 1024px) {
+	div{
+	  width: 500px;
+	}
+	.sidebar{
+		float: none;
+	}
+	.explanation,.participation,footer,.benefits,.requirements{
+		float: left;
+		background: #FFCCCC;
+		width: 100%;
+		padding: 1em 5% 1em 10%;
+		font-size: 120%;
+	}
+	
+  }
+@media screen and (max-width: 768px) {
+	div{
+		width: 100%;
+		margin: 0;
+	}
+	.explanation,.participation,footer,.benefits,.requirements{
+		float: left;
+		background: #FFCCCC;
+		width: 100%;
+		padding: 1em 5% 1em 10%;
+		font-size: 120%;
+	}
+	
+}
