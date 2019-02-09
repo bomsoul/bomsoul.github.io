@@ -1,0 +1,202 @@
+[
+    {
+        "brand": "Fujifilm",
+        "name": "X-T100",
+        "price": "23,990",
+        "LensKit": "15-45mm",
+        "Battery": "1,260mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 23990
+    },
+    {
+        "brand": "Olympus",
+        "name": "OM-D E-M10III",
+        "price": "29,990",
+        "LensKit": "14-42mm",
+        "Battery": "1,175mAh",
+        "type": "Mirrorless",
+        "sensor": "M4/3",
+        "cost": 29990
+    },
+    {
+        "brand": "Canon",
+        "name": "EOS R",
+        "price": "75,000",
+        "LensKit": "15-45mm",
+        "Battery": "875mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C Full-Frame",
+        "cost": 75000
+    },
+    {
+        "brand": "Sony",
+        "name": "a6400",
+        "price": "42,500",
+        "LensKit": "16-50mm",
+        "Battery": "1,080mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 42500
+    },
+    {
+        "brand": "Fujifilm",
+        "name": "X-T10",
+        "price": "38,990",
+        "LensKit": "15-45mm",
+        "Battery": "1,260mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 38990
+    },
+    {
+        "brand": "Canon",
+        "name": "EOS M50",
+        "price": "25,990",
+        "LensKit": "15-45mm",
+        "Battery": "875mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 25990
+    },
+    {
+        "brand": "Panasonic Lumix",
+        "name": "DMC-G7",
+        "price": "22,070",
+        "LensKit": "14-42mm",
+        "Battery": "1,025mAh",
+        "type": "Mirrorless",
+        "sensor": "M4/3",
+        "cost": 22070
+    },
+    {
+        "brand": "Sony",
+        "name": "A7 III",
+        "price": "74,990",
+        "LensKit": "28–70mm",
+        "Battery": "1,080mAh",
+        "type": "Mirrorless",
+        "sensor": "CMOS Full-Frame",
+        "cost": 74990
+    },
+    {
+        "brand": "Canon",
+        "name": "G1 X Mark III",
+        "price": "36,690",
+        "LensKit": "15-45mm",
+        "Battery": "875mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 36690
+    },
+    {
+        "brand": "Panasonic Lumix",
+        "name": "S1",
+        "price": "47,175",
+        "LensKit": "14-42mm",
+        "Battery": "1,025mAh",
+        "type": "Mirrorless",
+        "sensor": "CMOS Full-Frame",
+        "cost": 47175
+    },
+    {
+        "brand": "Olympus",
+        "name": "OM-D E-M5II",
+        "price": "37,990",
+        "LensKit": "14-42mm",
+        "Battery": "1,175mAh",
+        "type": "Mirrorless",
+        "sensor": "M4/3",
+        "cost": 37990
+    },
+    {
+        "brand": "Sony",
+        "name": "a6300",
+        "price": "27,990",
+        "LensKit": "16-50mm",
+        "Battery": "1,080mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 27990
+    },
+    {
+        "brand": "Olympus",
+        "name": "PEN E-PL9",
+        "price": "24,990",
+        "LensKit": "14-42mm",
+        "Battery": "1,175mAh",
+        "type": "Mirrorless",
+        "sensor": "M4/3",
+        "cost": 24990
+    },
+    {
+        "brand": "Panasonic Lumix",
+        "name": "GX85",
+        "price": "25,990",
+        "LensKit": "14-42mm",
+        "Battery": "940mAh",
+        "type": "Mirrorless",
+        "sensor": "M4/3",
+        "cost": 25990
+    },
+    {
+        "brand": "Fujifilm",
+        "name": "X-A5",
+        "price": "21,990",
+        "LensKit": "15-45mm",
+        "Battery": "1,260mAh",
+        "type": "Mirrorless",
+        "sensor": "APS-C",
+        "cost": 21990
+    },
+    {
+        "brand": "Canon",
+        "name": "EOS 800D",
+        "price": "18,790",
+        "LensKit": "18-55mm",
+        "Battery": "1,800mAh",
+        "type": "DSLR",
+        "sensor": "APS-C",
+        "cost": 18790
+    },
+    {
+        "brand": "Nikon",
+        "name": "Coolpix P900",
+        "price": "19,990",
+        "LensKit": "24-2000mm",
+        "Battery": "1,850mAh",
+        "type": "DSLR",
+        "sensor": "CMOS",
+        "cost": 19990
+    },
+    {
+        "brand": "Olympus",
+        "name": "E-620",
+        "price": "29,990",
+        "LensKit": "14-42mm",
+        "Battery": "1,150mAh",
+        "type": "DSLR",
+        "sensor": "4/3",
+        "cost": 29990
+    },
+    {
+        "brand": "Sony",
+        "name": "a58",
+        "price": "20,990",
+        "LensKit": "18-55mm",
+        "Battery": "1,080mAh",
+        "type": "DSLR",
+        "sensor": "APS-C",
+        "cost": 20990
+    },
+    {
+        "brand": "Fujifilm",
+        "name": "Finepix X-S1",
+        "price": "21,990",
+        "LensKit": "24-624mm",
+        "Battery": "1,260mAh",
+        "type": "DSLR",
+        "sensor": "CMOS",
+        "cost": 21990
+    }
+]
