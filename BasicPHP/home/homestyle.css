@@ -1,0 +1,19 @@
+#withdrawer{
+    color: red;
+}
+
+#saver{
+    color: green;
+}
+
+#balance{
+    color: blue;
+}
+
+p #warning{
+    color: red;
+    font-size: 120%;
+}
+.amount-Label{
+    font-size: 110%;
+}
