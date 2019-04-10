@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 html{
     scroll-behavior: smooth;
 }
 
 body{
-    background: rgb(230,230,230);
-  
+  background: rgb(230,230,230);
   color: rgb(50,50,50);
-  font-family: 'Open Sans', sans-serif;
+  font-family:'Oswald', sans-serif;
   font-size: 112.5%;
   line-height: 1.6em;
+}
+
+h3{
+  font-family: 'Bubblegum Sans', cursive;
+}
+
+h1{
+  font-family: 'Philosopher', sans-serif;
 }
 
 .hero-image{
@@ -407,6 +413,26 @@ body{
 	padding-top: .75rem;
 	padding-bottom: .75rem;
 	width: 100%;
+}
+
+#contact div i{
+  font-size: 150%;
+}
+
+#facebook{
+  color: #000033;
+}
+
+#line{
+  color: green
+}
+
+#instagram{
+  color: #990000;
+}
+
+#github{
+  color: black;
 }
 
 @media screen and (max-width:800px){
