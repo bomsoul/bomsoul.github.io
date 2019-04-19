@@ -18,6 +18,10 @@ h1{
   font-family: 'Philosopher', sans-serif;
 }
 
+#framework div{
+  font-size: 400%;
+}
+
 .hero-image{
     width: 98.75vw;
     height: 50vh;
