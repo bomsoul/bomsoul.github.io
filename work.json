@@ -1,0 +1,154 @@
+[
+    {
+        "name": "Senior Project",
+        "status": "In progress...",
+        "year": "2019",
+        "description" : "Using Face Recognition with reactJS ,Tensor-flow ,face-api.js and firebase.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "Software Engineering Project",
+        "status": "In progress...",
+        "year": "2019",
+        "description" : "Android & Desktop Application using Spring Framework ,Java ,JavaFX and MySQL database.",
+        "role" : "Developer",
+        "select" : 2
+    },
+    {
+        "name": "Teacher Assistant (TA)",
+        "status": "Completed",
+        "year": "2019",
+        "description" : "Teaching Python to Year 2-5 Students.",
+        "role" : "Teacher Asistant (TA)",
+        "select" : 4
+    },
+    {
+        "name": "Mobile Application Project (Android)",
+        "status": "https://github.com/bomsoul/Android-Project",
+        "year": "2019",
+        "description" : "Android Application using Gradle library with MySQL database.",
+        "role" : "Developer",
+        "select" : 2
+    },
+    {
+        "name": "Dev Camp #7",
+        "status": "https://github.com/bomsoul/devcamp",
+        "year": "2019",
+        "description" : "'RELEASE' Web Application using ReactJS ,Firebase ,ANTD and Firebase Google API.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "KU STARTUP CAMP#3",
+        "status": "https://baconites.github.io/",
+        "year": "2019",
+        "description" : "'EDOX' Education OX Web Application using Pure HTML ,CSS ,JavaScript.",
+        "role" : "Frontend Developer",
+        "select" : 1
+    },
+    {
+        "name": "Firebase To-Do-List",
+        "status": "https://github.com/bomsoul/fb-to-do-list",
+        "year": "2019",
+        "description" : "To do list Web Application using ReactJS and Firebase.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "MERN To-Do-List",
+        "status": "https://github.com/bomsoul/mern-to-do-list",
+        "year": "2019",
+        "description" : "To do list Web Application using ReactJS ,MongoDB ,ExpressJS and NodeJS.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "Web Technology Project 2",
+        "status": "-",
+        "year": "2019",
+        "description" : "Online Study Class Web Application using Laravel Framework.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "Laravel Tutorial",
+        "status": "https://github.com/bomsoul/Laravel-tutorial",
+        "year": "2019",
+        "description" : "Classwork Web Application using Laravel.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "Web Technology Project 1",
+        "status": "https://github.com/bomsoul/projWebtech",
+        "year": "2019",
+        "description" : "CAAS system using pure HTML ,CSS ,JavaScript and PHP ,laragon database and Google API.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "Basic PHP",
+        "status": "http://teerayuthl4.herokuapp.com/BasicPHP/",
+        "year": "2019",
+        "description" : "Web Application using php pdo and file.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "Hello JQuery",
+        "status": "https://bomsoul.github.io/JQuery/",
+        "year": "2019",
+        "description" : "Web Application using Jquery ,HTML ,CSS and AJAX.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "CSS Specify",
+        "status": "https://bomsoul.github.io/cssspecify/",
+        "year": "2019",
+        "description" : "Web Application using Bootstrap ,css and HTML.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "CSS Zen Garden",
+        "status": "https://bomsoul.github.io/csszengarden/",
+        "year": "2019",
+        "description" : "Web Application using pure css and HTML.",
+        "role" : "Developer",
+        "select" : 1
+    },
+    {
+        "name": "System Analysis Project",
+        "status": "https://github.com/bomsoul/SAProject",
+        "year": "2018",
+        "description" : "Medical Tools Shop Desktop Application using Java ,JavaFX and SQLite database with some design pattern.",
+        "role" : "Developer",
+        "select" : 3
+    },
+    {
+        "name": "Software Construction Project 2",
+        "status": "https://github.com/bomsoul/SoftConPj2",
+        "year": "2018",
+        "description" : "Alarm Clock Desktop Application using Java ,JavaFX and MySQL database.",
+        "role" : "Developer",
+        "select" : 3
+    },
+    {
+        "name": "Software Construction Project 1",
+        "status": "https://github.com/bomsoul/SoftConPj1",
+        "year": "2018",
+        "description" : "Registration System using Java ,JavaFX and MySQL database.",
+        "role" : "Developer",
+        "select" : 3
+    },
+    {
+        "name": "COMSCI Bangmod Hackathon",
+        "status": "-",
+        "year": "2016",
+        "description" : "UX/UI Designer of the team using pure HTML, CSS, JavaScript",
+        "role" : "Designer",
+        "select" : 4
+    }
+]

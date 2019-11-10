@@ -1,0 +1,47 @@
+[
+    {
+        "name" : "One Fine Day with EXON Mobil",
+        "year" : 2019,
+        "description" : "Senior sharing experience of working in ExonMobil"
+    },
+    {
+        "name" : "Dev Camp #7",
+        "year" : 2019,
+        "description" : "Web Developer Using ReactJS ,ANTD and Firebase."
+    },
+    {
+        "name" : "KU STARTUP CAMP #3",
+        "year" : 2019,
+        "description" : "Web (Fronted)Developer Using pure HTML ,Css ,JavaScript."
+    },
+    {
+        "name" : "Senimar Deep Learning By Prof. Ruj",
+        "year" : 2019,
+        "description" : "Senimar About Basic Deep Learing and some some workshop."
+    },
+    {
+        "name" : "Internship Senimar",
+        "year" : 2019,
+        "description" : "Seminar about Internship Experience of KU 75 students."
+    },
+    {
+        "name" : "KU Color Run 2019",
+        "year" : 2019,
+        "description" : "Running 5 Km. Marathon in Kasetsart University."
+    },
+    {
+        "name" : "Run for KU 2018",
+        "year" : 2018,
+        "description" : "Running 5 Km. Marathon in Kasetsart University."
+    },
+    {
+        "name" : "Welcome KU 77",
+        "year" : 2017,
+        "description" : "Stay at the base and let freshman play 'Stand on the paper' game."
+    },
+    {
+        "name" : "CS Bangmod Hackathon",
+        "year" : 2016,
+        "description" : "UX/UI Designer for my team with pure HTML ,CSS ,JavaScript."
+    }
+]
