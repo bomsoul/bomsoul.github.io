@@ -47,7 +47,7 @@ $(document).ready(function(){
                             if(this.status === "In progress..." || this.status === "-" || this.status ==='Completed'){
                                 set_data += '<div class="item">'+
                                 '<div class="ui small image">'+
-                                    '<img src="/images/wireframe/image.png">'+
+                                    '<img src="'+this.path+'">'+
                                 '</div>'+
                                 '<div class="content">'+
                                     '<div class="header">'+this.name+'</div>'+
@@ -65,7 +65,7 @@ $(document).ready(function(){
                             else{
                                 set_data += '<div class="item">'+
                                 '<div class="ui small image">'+
-                                    '<img src="/images/wireframe/image.png">'+
+                                    '<img src="'+this.path+'">'+
                                 '</div>'+
                                 '<div class="content">'+
                                     '<div class="header">'+this.name+'</div>'+
@@ -92,7 +92,7 @@ $(document).ready(function(){
                             if(this.status === "In progress..." || this.status === "-" || this.status ==='Completed'){
                                 set_data += '<div class="item">'+
                                 '<div class="ui small image">'+
-                                    '<img src="/images/wireframe/image.png">'+
+                                    '<img src="'+this.path+'">'+
                                 '</div>'+
                                 '<div class="content">'+
                                     '<div class="header">'+this.name+'</div>'+
@@ -110,7 +110,7 @@ $(document).ready(function(){
                             else{
                                 set_data += '<div class="item">'+
                                 '<div class="ui small image">'+
-                                    '<img src="/images/wireframe/image.png">'+
+                                    '<img src="'+this.path+'">'+
                                 '</div>'+
                                 '<div class="content">'+
                                     '<div class="header">'+this.name+'</div>'+
@@ -155,38 +155,58 @@ $(document).ready(function(){
 
         $.getJSON('certificate.json',function(data){
             var set_data= ""
+            var id = [];
             $.each(data,function(){
-                set_data += '<div class="item">'+
-                '<div class="image">' +
-                  '<img src="/images/wireframe/image.png">'+
-                '</div>' +
-                '<div class="content">' +
-                  '<a class="header">'+ this.name+ '</a>' +
-                   '<div class="meta">' +
-                    '<span class="cinema">'+this.year+'</span>' +
-                  '</div>'+
-                  '<div class="description">'+
-                    '<p>'+this.description+'</p>'+
-                  '</div>' +
-                  '<div class="extra">'+
-                    '<div class="ui right floated primary button momo">See Certificate'+
-                      '<i class="right chevron icon"></i>'+
+                console.log(this.number);
+                set_data += 
+                 '<div class="item">' +
+                    '<div class="image">' +
+                        '<img src="/images/wireframe/image.png">' +
+                    '</div>'+
+                    '<div class="content">' +
+                        '<a class="header">'+this.name+'</a>' +
+                        '<div class="meta">' +
+                            '<span class="cinema">'+this.year+'</span>' +
+                        '</div>' +
+                        '<div class="description">' +
+                            '<p>'+this.description+'</p>' +
+                        '</div>' +
+                        '<div class="extra">' +
+                            '<div id = "'+this.number+'" class="ui right floated primary button hid">' +
+                                'Buy tickets' +
+                                '<i class="right chevron icon"></i>' +
+                            '</div>' +
+                        '</div>' +
+                        '<div class="ui basic modal '+this.number+'">' +
+                            '<div class="ui icon header">' +
+                                '<i class="fas fa-id-card"></i>' +
+                                'Transcript' +
+                            '</div>' +
+                            '<div class="content">' +
+                                '<div class="ui embed">' +
+                                    '<iframe src="transcript.pdf" frameborder="0"></iframe>' +
+                                '</div>' +
+                            '</div>' +
+                            '<div class="actions">' +
+                                '<div class="ui green ok inverted button">' +
+                                    '<i class="fas fa-window-close"></i>' +
+                                    'Close' +
+                                '</div>' +
+                            '</div>' +
+                        '</div>' + 
                     '</div>' +
-                    '</div>' +
-                '</div>' +
-              '</div>' 
+                '</div>';
+                id.push(this.number);
+                console.log(this.number);
             })
             $('.ui.divided.items.iv').html(set_data);
+            id.forEach(element => {
+                var item_id = "#" + element ;
+                $(item_id.toString()).click(function(){
+                    var cla = '.ui.basic.modal.' + element 
+                    $(cla.toString()).modal('show');
+                })
+            });
         })
         
 });
-
-{/* <div class="ui modal">
-  <div class="header">Header</div>
-  <div class="image content">
-    <img class="image">
-    <div class="description">
-      <p></p>
-    </div>
-  </div>
-</div> */}
