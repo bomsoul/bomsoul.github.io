@@ -2,46 +2,56 @@
     {
         "name" : "One Fine Day with EXON Mobil",
         "year" : 2019,
-        "description" : "Senior sharing experience of working in ExonMobil"
+        "description" : "Senior sharing experience of working in ExonMobil",
+        "path" : "images/activity/exxon.jpg"
     },
     {
         "name" : "Dev Camp #7",
         "year" : 2019,
-        "description" : "Web Developer Using ReactJS ,ANTD and Firebase."
+        "description" : "Web Developer Using ReactJS ,ANTD and Firebase.",
+        "path" : "images/activity/dev1.jpg"
     },
     {
         "name" : "KU STARTUP CAMP #3",
         "year" : 2019,
-        "description" : "Web (Fronted)Developer Using pure HTML ,Css ,JavaScript."
+        "description" : "Web (Fronted)Developer Using pure HTML ,Css ,JavaScript.",
+        "path" : "images/activity/startup1.jpg"
+
     },
     {
         "name" : "Senimar Deep Learning By Prof. Ruj",
         "year" : 2019,
-        "description" : "Senimar About Basic Deep Learing and some some workshop."
+        "description" : "Senimar About Basic Deep Learing and some some workshop.",
+        "path" : "images/activity/deeplearning2.jpg"
     },
     {
         "name" : "Internship Senimar",
         "year" : 2019,
-        "description" : "Seminar about Internship Experience of KU 75 students."
+        "description" : "Seminar about Internship Experience of KU 75 students.",
+        "path" : "images/activity/amazon1.jpg"
     },
     {
         "name" : "KU Color Run 2019",
         "year" : 2019,
-        "description" : "Running 5 Km. Marathon in Kasetsart University."
+        "description" : "Running 5 Km. Marathon in Kasetsart University.",
+        "path" : "images/activity/color2.jpg"
     },
     {
         "name" : "Run for KU 2018",
         "year" : 2018,
-        "description" : "Running 5 Km. Marathon in Kasetsart University."
+        "description" : "Running 5 Km. Marathon in Kasetsart University.",
+        "path" : "images/activity/kurun1.jpg"
     },
     {
         "name" : "Welcome KU 77",
         "year" : 2017,
-        "description" : "Stay at the base and let freshman play 'Stand on the paper' game."
+        "description" : "Stay at the base and let freshman play 'Stand on the paper' game.",
+        "path" : "images/activity/welcome77.jpg"
     },
     {
         "name" : "CS Bangmod Hackathon",
         "year" : 2016,
-        "description" : "UX/UI Designer for my team with pure HTML ,CSS ,JavaScript."
+        "description" : "UX/UI Designer for my team with pure HTML ,CSS ,JavaScript.",
+        "path" : "images/activity/hack2.jpg"
     }
 ]

@@ -137,7 +137,7 @@ $(document).ready(function(){
             $.each(data,function(){
                 set_data += '<div class="item">'+
                 '<div class="ui small image">' +
-                    '<img src="/images/wireframe/image.png">' +
+                    '<img src="'+this.path+'">' +
                 '</div>'+
                 '<div class="content">'+
                     '<div class="header">'+ this.name+'</div>' +
@@ -177,7 +177,7 @@ $(document).ready(function(){
                                 '<i class="right chevron icon"></i>' +
                             '</div>' +
                         '</div>' +
-                        '<div class="ui basic modal '+this.number+'">' +
+                        '<div class="ui modal '+this.number+'">' +
                             '<div class="ui icon header">' +
                                 '<i class="fas fa-id-card"></i>' +
                                 'Transcript' +
@@ -203,7 +203,7 @@ $(document).ready(function(){
             id.forEach(element => {
                 var item_id = "#" + element ;
                 $(item_id.toString()).click(function(){
-                    var cla = '.ui.basic.modal.' + element 
+                    var cla = '.ui.modal.' + element 
                     $(cla.toString()).modal('show');
                 })
             });
