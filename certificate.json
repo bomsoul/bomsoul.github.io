@@ -3,26 +3,30 @@
         "name" : "Dev Camp #7",
         "year" : 2019,
         "description" : "Certificate in Software Development Training Camp.",
-        "number" : "a"
+        "number" : "a",
+        "path" : "images/certificate/devcer.jpg"
 
     },
     {
         "name" : "KU STARTUP CAMP #3",
         "year" : 2019,
         "description" : "Certificate in major of Developer.",
-        "number" : "b"
+        "number" : "b",
+        "path" : "images/certificate/startcer.jpg"
     },
     {
         "name" : "Certificate of Deep Learning Workshop",
         "year" : 2019,
         "description" : "Seminar by Prof. Ruj",
-        "number" : "c"
+        "number" : "c",
+        "path" : "images/certificate/deepcer.jpg"
 
     },
     {
         "name" : "Thai MOOC Basic Infographic",
         "year" : 2019,
         "description" : "Thailand Massive Open Online Course",
-        "number" : "d"
+        "number" : "d",
+        "path" : "images/certificate/infocer.jpg"
     }
 ]

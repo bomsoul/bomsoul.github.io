@@ -161,7 +161,7 @@ $(document).ready(function(){
                 set_data += 
                  '<div class="item">' +
                     '<div class="image">' +
-                        '<img src="/images/wireframe/image.png">' +
+                        '<img src="'+ this.path+'">' +
                     '</div>'+
                     '<div class="content">' +
                         '<a class="header">'+this.name+'</a>' +
@@ -172,25 +172,23 @@ $(document).ready(function(){
                             '<p>'+this.description+'</p>' +
                         '</div>' +
                         '<div class="extra">' +
-                            '<div id = "'+this.number+'" class="ui right floated primary button hid">' +
-                                'Buy tickets' +
-                                '<i class="right chevron icon"></i>' +
+                            '<div id = "'+this.number+'" class="ui right floated green button hid">' +
+                                'See Certificate&nbsp;' +
+                                '<i class="fas fa-certificate"></i>' +
                             '</div>' +
                         '</div>' +
                         '<div class="ui modal '+this.number+'">' +
                             '<div class="ui icon header">' +
-                                '<i class="fas fa-id-card"></i>' +
-                                'Transcript' +
+                                '<i class="fas fa-certificate"></i>&nbsp' +
+                                this.name +
                             '</div>' +
                             '<div class="content">' +
-                                '<div class="ui embed">' +
-                                    '<iframe src="transcript.pdf" frameborder="0"></iframe>' +
-                                '</div>' +
+                                '<img class="ui fluid image" src="'+this.path+'">' +
                             '</div>' +
                             '<div class="actions">' +
-                                '<div class="ui green ok inverted button">' +
-                                    '<i class="fas fa-window-close"></i>' +
-                                    'Close' +
+                                '<div class="ui red ok inverted button">' +
+                                    '<i class="fas fa-times"></i>' +
+                                        '&nbsp;Close' +
                                 '</div>' +
                             '</div>' +
                         '</div>' + 
