@@ -1,8 +1,14 @@
 [
     {
+        "name" : "KU Open House 2019",
+        "year" : 2019,
+        "description" : "Show Zenbo robot Programming and describe about Computer Science Major to interesting student.",
+        "path" : "images/activity/open house.jpg"
+    },
+    {
         "name" : "One Fine Day with EXON Mobil",
         "year" : 2019,
-        "description" : "Senior sharing experience of working in ExonMobil",
+        "description" : "Senior sharing experience of working in ExonMobil.",
         "path" : "images/activity/exxon.jpg"
     },
     {
