@@ -11,12 +11,12 @@
     },
     {
         "name": "Software Engineering Project",
-        "status": "In progress...",
+        "status": "https://github.com/Narongrit634/SE-Project",
         "year": "2019",
         "description" : "Android & Desktop Application using Spring Framework ,Java ,JavaFX and MySQL database.",
         "role" : "Developer",
         "select" : 2,
-        "path" : "images/wireframe/image.png"
+        "path" : "images/work/se.png"
     },
     {
         "name": "Teacher Assistant (TA)",
