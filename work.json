@@ -10,6 +10,15 @@
         
     },
     {
+        "name": "KU Open House 2019",
+        "status": "Completed",
+        "year": "2019",
+        "description" : "Show Zenbo robot Programming and describe about Computer Science Major to interesting student.",
+        "role" : "Staff",
+        "select" : 4,
+        "path" : "images/work/open house.jpg"
+    },
+    {
         "name": "Software Engineering Project",
         "status": "https://github.com/Narongrit634/SE-Project",
         "year": "2019",
