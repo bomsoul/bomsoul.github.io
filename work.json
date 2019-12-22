@@ -3,7 +3,7 @@
         "name": "Senior Project",
         "status": "In progress...",
         "year": "2019",
-        "description" : "Using Face Recognition with reactJS ,Tensor-flow ,face-api.js and firebase.",
+        "description" : "Using Face Recognition with ReactJS ,Tensor-flow ,face-api.js ,NodeJS ,ExpressJS and firebase.",
         "role" : "Developer",
         "select" : 1,
         "path" : "images/work/snpj.jpg"
