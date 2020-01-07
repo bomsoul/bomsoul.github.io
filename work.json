@@ -18,7 +18,6 @@
         "select" : 4,
         "path" : "images/work/open house.jpg"
     },
-	,
     {
         "name": "SQL To-Do-List",
         "status": "https://github.com/bomsoul/sql-to-do-list",
