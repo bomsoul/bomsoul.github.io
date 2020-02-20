@@ -1,5 +1,12 @@
 [
     {
+        "name" : "National Software Contest 2019 (NSC) - semi final round",
+        "year" : 2019,
+        "description" : "Showing and present about Senior Project to Nectec.",
+        "path" : "images/work/nsc.jpg"
+
+    },
+    {
         "name" : "KU Open House 2019",
         "year" : 2019,
         "description" : "Show Zenbo robot Programming and describe about Computer Science Major to interesting student.",
