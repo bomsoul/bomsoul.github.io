@@ -1,12 +1,22 @@
 [
     {
         "name": "Senior Project",
-        "status": "In progress...",
-        "year": "2019",
+        "status": "https://seniorproject59.herokuapp.com/",
+        "year": "2020",
         "description" : "Using Face Recognition with ReactJS ,Tensor-flow ,face-api.js ,NodeJS ,ExpressJS and firebase.",
         "role" : "Developer",
         "select" : 1,
         "path" : "images/work/snpj.jpg"
+        
+    },
+    {
+        "name": "Project Management Project",
+        "status": "https://pmproject0409.herokuapp.com/",
+        "year": "2020",
+        "description" : "Using Face Recognition with ReactJS ,Tensor-flow ,face-api.js and firebase.",
+        "role" : "Developer",
+        "select" : 1,
+        "path" : "images/work/pm.jpg"
         
     },
     {
